@@ -26,7 +26,7 @@ header {
 nav {
   width: 45%;
   margin: 0 auto;
-  padding-top: 2%;
+  padding-top: 5vh;
 }
 
 .nav-container {
@@ -60,15 +60,15 @@ nav {
 }
 
 .heading-top img {
-  margin-top: 5vh;
-  margin-bottom: 5vh;
+  margin-top: 4vh;
+  margin-bottom: 3.8vh;
 }
 
 .dates-container {
   display: flex;
   justify-content: space-between;
 
-  margin-bottom: 5vh;
+  margin-bottom: 7rem;
 }
 
 .date-info {
@@ -94,18 +94,31 @@ nav {
 
 .logo-round span {
   font-size: 2.6rem;
-  /* line-height: 57px; */
   letter-spacing: 2.6px;
 }
 
 .date-info p {
-  font-size: 3.3rem;
-  margin-bottom: 1rem;
-  letter-spacing: .2rem;
+  font-size: 3.9rem;
 }
 
-.date-info p span {
-  font-size: 4rem;
+.date-info h2 :first-child {
+  margin-bottom: 1.6rem;
+}
+
+.margin-top {
+  margin-top: 1.5rem;
+}
+
+.date-info .date {
+  font-size: 5.2rem;
+}
+
+.day {
+  font-size: 3rem;
+}
+
+.date-info .location {
+  font-size: 3.6rem;
 }
 
 .margin-left {
@@ -314,7 +327,7 @@ nav {
   opacity: 0.6;
 }
 
-.svg-icon {
+.svg-budge {
   width: 2rem;
   margin-right: .5rem;
 }
@@ -327,5 +340,7 @@ nav {
   margin-bottom: 10.5rem;
 }
 
-
+.more-event :nth-child(2) {
+  color: red
+}
 
