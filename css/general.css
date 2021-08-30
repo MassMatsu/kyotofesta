@@ -40,15 +40,19 @@ a:hover, a:active {
 }
 
 .margin-right-sm {
-  margin-right: 1.6rem !important;
+  margin-right: 1.8rem !important;
 }
 
 .margin-bottom-sm {
-  margin-bottom: 2.4rem !important;
+  
 }
 
 .margin-bottom-md {
-  margin-bottom: 4.8rem !important;
+  
+}
+
+.margin-bottom-lg {
+  
 }
 
 
@@ -56,8 +60,8 @@ a:hover, a:active {
 .char-style {
   /* font: normal normal normal 18px/32px Hiragino Sans; */
   font-family: 'Hiragino Sans';
-  font-size: 1.4rem;
-  line-height: 2.8rem;
+  font-size: 1.8rem;
+  line-height: 3.24rem;
   color: #282828;
 }
 
@@ -107,14 +111,14 @@ a:hover, a:active {
 /* layout */
 
 .container {
-  max-width: 1200px;
+  max-width: 120rem;
   margin: 0 auto;
 }
 
 .grid {
   display: grid;
-  row-gap: 2.8rem;
-  column-gap: 2.8rem;
+  row-gap: 8rem;
+  column-gap: 8.4rem;
 }
 
 .grid-2cols {
