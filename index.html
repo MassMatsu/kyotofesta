@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      (function (d) {
+        var config = {
+            kitId: 'dgw7nqu',
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, '') + ' wf-inactive';
+          }, config.scriptTimeout),
+          tk = d.createElement('script'),
+          f = false,
+          s = d.getElementsByTagName('script')[0],
+          a;
+        h.className += ' wf-loading';
+        tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != 'complete' && a != 'loaded')) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Kyotofesta</title>
+  </head>
+
+  <body>
+    <!-- ファーストビュー -->
+    <header>
+      <nav>
+        <ul class="nav-container">
+          <li><a href="#">開催概要</a></li>
+          <li><a href="#">ステージショー</a></li>
+          <li><a href="#">植物園ガイドツアー</a></li>
+          <li><a href="#">スタンプラリー</a></li>
+        </ul>
+      </nav>
+      <div class="top-info-container">
+        <div>
+          <h1 class="heading-top">
+            わくわく体験！府民みんなの<br />
+            <img src="img/title.svg" alt="フェスタイトル" />
+          </h1>
+
+          <div class="dates-container">
+            <div class="date-info">
+              <div class="logo-round">イベント</div>
+              <h2>
+                <p>2021.<span>11.3</span> (日)</p>
+                <p>@京都府立植物園</p>
+              </h2>
+            </div>
+            <div class="date-info">
+              <div class="logo-round"><span>WEB</span></div>
+              <h2>
+                <p>2021.<span>11.4</span> -</p>
+                <p class="margin-left">2022. <span>3.31</span></p>
+              </h2>
+            </div>
+          </div>
+
+          <div class="banners-container">
+            <div>
+              <a href="#"
+                ><img src="img/guidtour-banner.jpg" alt="ガイドツアー案内へ"
+              /></a>
+            </div>
+            <div>
+              <a href="#"
+                ><img src="img/stamp-banner.jpg" alt="スタンプラリー案内へ"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="top-bg-left"><img src="img/top_bg_left_pc.png" alt="" /></div>
+      <div class="top-bg-right">
+        <img src="img/top_bg_right_pc.png" alt="" />
+      </div>
+      <div class="top-bg-middle">
+        <img src="img/top_bg_middle_pc.png" alt="" />
+      </div>
+    </header>
+
+    <!-- 開催概要 -->
+    <main>
+      <section class="section-description">
+        <div class="container">
+          <h2 class="margin-bottom-md">WEBとリアルのハイブリットフェス</h2>
+          <article class="text-box-center char-style margin-bottom-md">
+            <p class="margin-bottom-sm">
+              平成22年度に始まった「府民交流フェスタ」は、<br />
+              例年11月に京都府立植物園において実施していますが、<br />
+              新型コロナウイルス感染症が拡大している状況を踏まえ、<br />
+              来場者、出展者等の安心・安全確保のため、<br />
+              令和２年度に引き続き、従来の野外での交流・体験型のイベントは
+              <br />
+              最小限での開催とすることとしました。
+            </p>
+
+            <p>
+              令和３年度は、インターネットサイトを併用して <br />
+              <strong>「リアルとWEBのハイブリット型フェス」</strong
+              >として開催いたします。
+            </p>
+          </article>
+
+          <div class="description-img-container margin-bottom-md">
+            <div class="description-img">
+              <img src="img/concept_event.jpg" alt="フェスの情景" />
+            </div>
+
+            <div class="allows-icons">
+              <i class="fas fa-arrow-alt-circle-left">&larr;</i>
+              <i class="fas fa-arrow-alt-circle-right">&rarr;</i>
+            </div>
+
+            <div class="description-img">
+              <img
+                src="img/concept_web.jpg"
+                alt="フェスの告知 2021 / 11 / 3 (日) 京都府立植物園, 2021 / 11 / 4 (木) ~ 2021 / 3 / 31 (木) WEB開催"
+              />
+            </div>
+          </div>
+
+          <article
+            class="event-date-container char-style-noto margin-bottom-md"
+          >
+            <div class="title">
+              <h4>開催日時</h4>
+              <img src="img/underline_wave.svg" alt="波線" />
+            </div>
+
+            <div class="event">
+              <p>植物園でのイベント開催</p>
+              <p>2021 / 11 / 3 (日) <span>10:00 ~ 17:00</span></p>
+            </div>
+            <div class="event">
+              <p>WEB開催期間 <span> （インターネットサイト公開期間）</span></p>
+              <p>2021 / 11 / 4 (木) ~ 2021 / 3 / 31 (木)</p>
+            </div>
+          </article>
+
+          <div class="fes-contents">
+            <h4>WEBでもリアルでも楽しめるコンテンツが盛り沢山！</h4>
+
+            <div class="grid grid-2cols">
+              <figure>
+                <img
+                  src="img/contents_stageshow.jpg"
+                  alt="ステージショーの様子"
+                />
+                <div class="figure-title-container">
+                  <p class="figure-footer-title">ステージショー</p>
+                  <span class="budge"><svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" width="13.802" height="18.403" viewBox="0 0 13.802 18.403">
+                    <path id="Icon_awesome-tree" data-name="Icon awesome-tree"
+                      d="M13.6,13.6l-2.871-3.252h1.1a.817.817,0,0,0,.747-.469.792.792,0,0,0-.118-.864L9.648,5.75h1.038a.814.814,0,0,0,.75-.489.8.8,0,0,0-.152-.865L7.32.173a.592.592,0,0,0-.838,0L2.518,4.4a.8.8,0,0,0-.152.865.815.815,0,0,0,.75.489H4.154L1.346,9.018a.794.794,0,0,0-.118.864.817.817,0,0,0,.747.469h1.1L.2,13.6a.8.8,0,0,0-.128.872.834.834,0,0,0,.755.476H5.751v.879L4.662,17.57a.575.575,0,0,0,.514.832H8.626a.575.575,0,0,0,.514-.832L8.051,15.83v-.879H12.97a.834.834,0,0,0,.755-.476A.8.8,0,0,0,13.6,13.6Z"
+                      transform="translate(0 0)" fill="#4e8e6e" />
+                  </svg>リアル開催</span>
+                </div>
+
+                <p class="char-style text-box-footer">
+                  植物園内大芝生地に設置されたステージでは、プロによる〇〇演奏や〇〇の披露が予定されています。オープニングセレモニーに参加いただける先着〇〇名様にはお花の苗をプレゼント！本サイトからお申し込みください。
+                  インターネットサイトでは、リアルイベント終了後ダイジェスト映像としてご紹介予定です！
+                </p>
+                <a href="#" class="button">コンテンツ紹介へ <span class="btn-arrow">&darr;</span></a>
+              </figure>
+
+              <figure>
+                <img src="img/contents_guidetour.jpg" alt="植物園ガイド風景" />
+                <div class="figure-title-container">
+                <p class="figure-footer-title">植物園ガイドツアー</p>
+                <span class="budge"><svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" width="13.802" height="18.403" viewBox="0 0 13.802 18.403">
+                  <path id="Icon_awesome-tree" data-name="Icon awesome-tree"
+                    d="M13.6,13.6l-2.871-3.252h1.1a.817.817,0,0,0,.747-.469.792.792,0,0,0-.118-.864L9.648,5.75h1.038a.814.814,0,0,0,.75-.489.8.8,0,0,0-.152-.865L7.32.173a.592.592,0,0,0-.838,0L2.518,4.4a.8.8,0,0,0-.152.865.815.815,0,0,0,.75.489H4.154L1.346,9.018a.794.794,0,0,0-.118.864.817.817,0,0,0,.747.469h1.1L.2,13.6a.8.8,0,0,0-.128.872.834.834,0,0,0,.755.476H5.751v.879L4.662,17.57a.575.575,0,0,0,.514.832H8.626a.575.575,0,0,0,.514-.832L8.051,15.83v-.879H12.97a.834.834,0,0,0,.755-.476A.8.8,0,0,0,13.6,13.6Z"
+                    transform="translate(0 0)" fill="#4e8e6e" />
+                </svg>リアル開催</span>
+                </div>
+                <p class="char-style text-box-footer">
+                  植物園職員による見頃の植物を解説いただくツアーを開催します。新型コロナウイルス感染症の感染拡大防止のため、事前申し込みで参加人数を制限しての開催となります。プロの解説で園内の植物を思いっきり楽しみましょう！
+                </p>
+                <p class="char-style tint text-box-footer">
+                  ※参加には事前申し込みが必要です。
+                  ※集合場所・時間などの詳細は参加者の方へ植物園からメールにてお伝えします。
+                </p>
+                <a href="#" class="button">コンテンツ紹介・お申し込みへ <span class="btn-arrow">&darr;</span></a>
+              </figure>
+
+              <figure>
+                <img
+                  src="img/contents_stamprally.jpg"
+                  alt="男の子がスタンプラリーをしている写真"
+                />
+                <p class="figure-footer-title">植物園スタンプラリー</p>
+                <span class="budge"><img src="" alt="" />リアル開催</span>
+                <p>
+                  植物園内に設置されたテントをまわってQRコードでスタンプを集めよう！５つ以上集めた方にはその場で記念品をプレゼントいたします。全て集めた方には豪華な賞品が待っているかも！？
+                </p>
+                <p>
+                  ※参加にはスマートフォンなどQRコードの読み込みが可能なデバイスが必要です。
+                </p>
+                <a href="#">コンテンツ紹介へ <span>&darr;</span></a>
+              </figure>
+
+              <figure>
+                <img
+                  src="img/contents_janken.jpg"
+                  alt="クイズ＆ジャンケン大会の様子"
+                />
+                <p class="figure-footer-title">クイズ＆じゃんけん大会</p>
+                <span class="budge"><img src="" alt="" />WEB開催</span>
+                <p>
+                  目玉イベントであるじゃんけん大会を、オンラインでも開催します！
+                  団体紹介に関するクイズ１問に正解いただくと、じゃんけん大会へ参加することができます。
+                  上位50位までの方の中から抽選で賞品をプレゼントいたします。ぜひクイズ＆じゃんけん大会にご参加ください。
+                </p>
+                <p>開催期間 <span>11月4日から2022年2月末（予定）まで</span></p>
+              </figure>
+
+              <figure>
+                <img
+                  src="img/contents_introduce.jpg"
+                  alt="京都総合計画に関する5つのカテゴリの絵"
+                />
+                <p class="figure-footer-title">団体紹介</p>
+                <span class="budge"><img src="" alt="" />WEB開催</span>
+                <p>
+                  京都府総合計画に掲げる５つのカテゴリごとに、府民フェスタ参加団体の概要・活動内容についてご紹介します。
+                </p>
+                <p>開催期間 <span>11月4日から2022年3月31日まで</span></p>
+              </figure>
+            </div>
+          </div>
+
+          <article>
+            <h4>同時開催イベント</h4>
+            <p>
+              府民フェスタ開催と同時に、地域創生を盛り上げるイベントが植物園内、近隣施設で開催されます。合わせてぜひご来場ください！
+            </p>
+
+            <ul>
+              <li>
+                <h5>地域創生パン祭り<svg></svg></h5>
+                <p>植物園北山門周辺</p>
+                <p>障がい者施設による創作パンなどのテイクアウト販売</p>
+              </li>
+              <li>
+                <h5>京のむらづくり交流フェア<svg></svg></h5>
+                <p>植物園正門周辺</p>
+                <p>府内各地の野菜や加工品のテイクアウト販売</p>
+              </li>
+              <li>
+                <h5>きょうと子育て環境日本一サミット<svg></svg></h5>
+                <p>府立大学・歴彩館</p>
+                <p>
+                  行政、経済団体、保育・教育関係団体等による子育て環境日本一に向けた取組みの発表や、育児に役立つ商品等の体験ができる「きょうと子育て応援見本市」など
+                </p>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- ステージショー -->
+      <section class="section-show">
+        <h3>ステージショー</h3>
+
+        <div>
+          <p>
+            例年植物園で開催する「府民交流フェスタ」にて参加団体によって披露されるさまざまなステージが、今年度も開催することが決定しました。プロによるステージをお楽しみください！
+            ※都合により、時間や内容の変更が生じる場合があります。
+          </p>
+          <div>
+            <img src="" alt="ステージショーの様子" />
+            <table>
+              <thead>
+                <tr>
+                  <th colspan="2">ステージショースケジュール</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <th>11:00</th>
+                  <td>オープニングステージ オープニング演奏</td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>京都第二赤十字病院</td>
+                </tr>
+                <tr>
+                  <th>11:30</th>
+                  <td>
+                    東映太秦映画村がやってきた！<br />
+                    アイドルステージ＆チャンバラショー（1回目）
+                  </td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>東映京都撮影所</td>
+                </tr>
+                <tr>
+                  <th>12:00</th>
+                  <td>京大金剛会による能楽</td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>京大金剛会</td>
+                </tr>
+                <tr>
+                  <th>12:30</th>
+                  <td>ステージタイトル</td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>団体名</td>
+                </tr>
+                <tr>
+                  <th>13:00</th>
+                  <td>
+                    東映太秦映画村がやってきた！<br />
+                    アイドルステージ＆チャンバラショー（2回目）
+                  </td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>東映京都撮影所</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <form action="">
+          <h4>オープニングセレモニー参加お申し込み</h4>
+
+          <p>
+            オープニングセレモニーに参加いただいける先着〇〇名様に花の苗をプレゼント！プレゼント数の把握のため事前のお申し込みをお願いしております。
+          </p>
+
+          <div>
+            <label for="">代表者のおなまえ</label>
+            <input type="text" name="name" />
+          </div>
+          <div>
+            <label for="">よみがな</label>
+            <input type="text" name="spell" />
+          </div>
+          <div>
+            <label for="">メールアドレス <span>必須</span></label>
+            <input type="email" name="email" />
+          </div>
+          <div>
+            <label for="">当日の連絡先（携帯番号）<span>必須</span></label>
+            <input type="text" name="tel" />
+          </div>
+          <div>
+            <label for="">参加人数</label>
+            <input type="number" name="numOfPeople" /> 人
+          </div>
+
+          <button type="submit">内容確認へ</button>
+        </form>
+      </section>
+
+      <!-- ガイドツアー -->
+      <section class="section-tour">
+        <h3>植物園ガイドツアー</h3>
+
+        <div>
+          <div>
+            <p>
+              植物園でのスタンプラリーの参加には、会場での密を避けるため事前申し込みをお願いしております。下記フォームに代表者のお名前、ご住所、スタンプラリー参加人数をご入力いただき、事務局までお申し込みください。
+            </p>
+
+            <h4>開催スケジュール</h4>
+            <p>時間・回数は参加者へメールにてお知らせいたします。</p>
+          </div>
+          <div>
+            <img src="" alt="植物園ガイドツアーの様子" />
+            <p>植物園での定期解説イベント 「土曜ミニミニガイド」のようす</p>
+          </div>
+        </div>
+
+        <form action="">
+          <h4>ガイドツアー参加お申し込み</h4>
+
+          <p>
+            植物園でのスタンプラリーの参加には、会場での密を避けるため事前申し込みをお願いしております。下記フォームに代表者のお名前、ご住所、スタンプラリー参加人数をご入力いただき、事務局までお申し込みください。
+          </p>
+
+          <div>
+            <label for="">代表者のおなまえ</label>
+            <input type="text" name="name" />
+          </div>
+          <div>
+            <label for="">よみがな</label>
+            <input type="text" name="spell" />
+          </div>
+          <div>
+            <label for="">メールアドレス <span>必須</span></label>
+            <input type="email" name="email" />
+          </div>
+          <div>
+            <label for="">当日の連絡先（携帯番号）<span>必須</span></label>
+            <input type="text" name="tel" />
+          </div>
+          <div>
+            <label for="">参加人数</label>
+            <input type="number" name="numOfPeople" /> 人
+          </div>
+
+          <button type="submit">内容確認へ</button>
+        </form>
+      </section>
+
+      <section class="section-rally">
+        <h3>植物園スタンプラリー</h3>
+
+        <div>
+          <p>
+            会場内にあるQRコードを読み取り、
+            集めたポイントで記念品がゲットできる
+            「植物園スタンプラリー」を開催します！
+          </p>
+
+          <div>
+            <div>
+              <h4>リアルスタンプラリー＠植物園</h4>
+
+              <ul>
+                <li>
+                  <div>1</div>
+                  <p>
+                    植物園会場に設置されたテントを見つけたら、パネルに掲載されたQRコードを読み取ってポイントをゲット！
+                  </p>
+                </li>
+                <li>
+                  <div>2</div>
+                  <p>
+                    集める順番は関係ありません。５つ集めるとクリア！その場で記念品をゲットしよう。全て集めるともらえる賞品が変わるかも！？
+                  </p>
+                </li>
+              </ul>
+
+              <h5>開催スケジュール</h5>
+              <p>2021 / 11 / 3 (日) <span>10:00 ~ 17:00</span></p>
+            </div>
+
+            <img src="" alt="QRコードを使ったスタンプラリーのイメージの絵図" />
+          </div>
+
+          <div>
+            <h4>植物園マップ</h4>
+
+            <p>
+              マップ内にマークがあるエリアにテントが設置されています。エリア内のどこにあるかは実際にさがして確かめてみよう！
+            </p>
+
+            <img src="" alt="園内マップとテント" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <div>
+          <p>わくわく体験！府民みんなの</p>
+          <p>「府民交流フェスタ」</p>
+        </div>
+
+        <ul>
+          <li>開催概要</li>
+          <li>ステージショー</li>
+          <li>植物園ガイドツアー</li>
+          <li>スタンプラリー</li>
+        </ul>
+
+        <button><span></span> お問い合わせ</button>
+      </div>
+
+      <div>
+        <ul>
+          <li><svg></svg></li>
+          <li><svg></svg></li>
+          <li><svg></svg></li>
+        </ul>
+
+        <div>
+          <p>主催</p>
+          <div>
+            <p>京都府政策企画部企画参事 (中部担当・府民協働担当)付</p>
+            <p>
+              〒602-8570 京都府京都市上京区下立売通新町西入薮ノ内町
+              電話：075-414-4865
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <p>共催</p>
+          <div>
+            <p>京都府立植物園</p>
+            <p>〒606-0823 京都市左京区下鴨半木町 電話：075-701-0141</p>
+          </div>
+        </div>
+
+        <div>
+          <p>同時開催イベント</p>
+          <ul>
+            <li>地方創生パン祭り<svg></svg></li>
+            <li>京のむらづくり交流フェア<svg></svg></li>
+            <li>きょうと子育て環境日本一サミット<svg></svg></li>
+          </ul>
+        </div>
+      </div>
+
+      <div>
+        <p>Copyright ©︎ きょうと地域創生府民会議</p>
+        <p>All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

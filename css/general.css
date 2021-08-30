@@ -1,0 +1,125 @@
+:root {
+  /* Colors: */
+  --color-e8b146: #e8b146;
+  --color-4e8e6e: #4e8e6e;
+  --color-fbfce6: #fbfce6;
+  --color-79ab94: #79ab94;
+  --color-333333: #333333;
+
+  /* Font/text values */
+  --font-family-dnp-shueimgostd: DNP ShueiMGoStd;
+  --font-style-normal: normal;
+  --font-weight-normal: normal;
+  --font-size-48: 48px;
+  --character-spacing-0: 0px;
+  --line-spacing-106: 106px;
+}
+
+*, ::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* percentage of browser font-size setting */
+  font-size: 62.5%;
+}
+
+body: {
+
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+
+}
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+
+.margin-bottom-sm {
+  margin-bottom: 2.4rem !important;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+
+/* Character Styles */
+.char-style {
+  /* font: normal normal normal 18px/32px Hiragino Sans; */
+  font-family: 'Hiragino Sans';
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  color: #282828;
+}
+
+.char-style-header {
+  font: var(--font-style-normal) normal var(--font-weight-normal) 23px/51px
+    var(--font-family-dnp-shueimgostd);
+  letter-spacing: var(--character-spacing-0);
+  font: normal normal normal 23px/51px DNP ShueiMGoStd;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.char-style-noto {
+  font-family: "NotoSansCJKjp";
+}
+
+/* .char-style-header {
+  font-size: 2.3rem;
+  font-family: var(--font-family-dnp-shueimgostd);
+  color: #ffffff;
+} */
+
+/* button */
+.button:link, .button:visited {
+  display: block;
+  width: 100%;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  border: 1px solid #282828;
+  background-color: #fff;
+  border-radius: 3.8rem;
+
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: "NotoSansCJKjp";
+  color: #282828;
+}
+
+.btn-arrow {
+  float: right;
+  margin-right: 1.5rem;
+}
+
+
+/* layout */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  row-gap: 2.8rem;
+  column-gap: 2.8rem;
+}
+
+.grid-2cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+
