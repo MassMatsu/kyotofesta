@@ -52,7 +52,7 @@ a:hover, a:active {
 }
 
 .margin-bottom-lg {
-  
+  margin-bottom: 9.3rem !important;
 }
 
 
@@ -61,11 +61,20 @@ a:hover, a:active {
   /* font: normal normal normal 18px/32px Hiragino Sans; */
   font-family: 'Hiragino Sans';
   font-size: 1.8rem;
+  font-weight: 300;
   line-height: 3.24rem;
   color: #282828;
 }
 
-.char-style-header {
+.char-style-heading {
+  font-family: "DNP ShueiMGoStd";
+  font-size: 4.8rem;
+  color: #fff;
+  text-align: center;
+}
+
+
+/* .char-style-header {
   font: var(--font-style-normal) normal var(--font-weight-normal) 23px/51px
     var(--font-family-dnp-shueimgostd);
   letter-spacing: var(--character-spacing-0);
@@ -73,7 +82,7 @@ a:hover, a:active {
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
-}
+} */
 
 .char-style-noto {
   font-family: "NotoSansCJKjp";
@@ -118,6 +127,16 @@ a:hover, a:active {
   padding-bottom: 15rem;
 }
 
+.inner-container {
+  max-width: 120rem;
+  border-radius: 3rem;
+  padding: 5.6rem;
+}
+
+.inner-container p {
+
+}
+
 .grid {
   display: grid;
   row-gap: 8rem;
@@ -127,6 +146,10 @@ a:hover, a:active {
 .grid-2cols {
   grid-template-columns: repeat(2, 1fr);
 }
+
+
+
+
 
 
 

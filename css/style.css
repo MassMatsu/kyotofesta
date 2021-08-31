@@ -19,7 +19,7 @@ header {
 header {
   font-size: 2.3rem;
   font-family: var(--font-family-dnp-shueimgostd);
-  /* font: normal normal normal 23px/51px DNP ShueiMGoStd; */
+
   color: #ffffff;
 }
 
@@ -252,6 +252,7 @@ nav {
 .event :nth-child(2) {
   font-family: 'Hiragino Sans';
   font-size: 1.8rem;
+  font-weight: 300;
 }
 
 .event :nth-child(2) span {
@@ -269,6 +270,10 @@ nav {
 }
 
 /***************************/
+
+.fes-contents {
+  margin-bottom: 11.8rem;
+}
 
 .fes-contents h4 {
   font-size: 3.2rem;
@@ -293,7 +298,7 @@ nav {
 }
 
 .figure-title-container {
-  margin-bottom: 2.8rem;
+  /* margin-bottom: 2.8rem; */
 
   display: flex;
   align-items: center;
@@ -337,10 +342,164 @@ nav {
 }
 
 .event-date {
-  margin-bottom: 10.5rem;
+  background-color: #fff;
+
+  padding: 2.5rem 3.2rem;
+  border-radius: 1rem;
+}
+
+.event-date span {
+  font-weight: bold;
+}
+
+.event-date div {
+  display: flex;
+  flex-direction: column;
+}
+
+.event-date img {
+  width: 8rem;
+}
+
+
+/*******************************/
+
+.more-event-container {
+  width: 100%;
+  background-color: #fff;
+
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  
+}
+
+ .more-event-container div {
+
+}
+
+.more-event-container h4 {
+  font-family: "NotoSansCJKjp";
+  font-weight: bold;
+  font-size: 3.2rem;
+  color: #fff;
+  text-align: center;
+
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+
+  background-color: #e8b146;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+
+}
+
+.more-event-container p {
+  font-family: 'Hiragino Sans';
+  font-size: 1.8rem;
+  font-weight: 300;
+
+  margin-bottom: 3.2rem;
+}
+
+.more-event-container div {
+  padding: 4.8rem 5.6rem 5.3rem 5.6rem;
+}
+
+.more-event h5 {
+  font-size: 2.4rem;
+  color: #4e8e6e;
+
+  padding-bottom: 1rem;
+  display: inline-block;
+  border-bottom: 2px solid #4e8e6e;
+
+  margin-bottom: 2.2rem;
+}
+
+.more-event p {
+  display: flex;
+  align-items: center;
+}
+
+.svg-location {
+  margin-right: 1rem;
+
+  color: #5D8C70
 }
 
 .more-event :nth-child(2) {
-  color: red
+  font-size: 2rem;
+  color: #4e8e6e;
+
+  margin-bottom: 1rem;
+}
+
+.more-event p:last-child {
+  opacity: 0.7;
+}
+
+
+/***********************/
+/* stage show */
+/***********************/
+
+.section-show {
+  background-image: url(../img/section_bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.inner-container.yellow {
+  background-color: #fbfce6;
+}
+
+.inner-container p {
+  margin-bottom: 3.5rem;
+}
+
+
+.stage-img-container{
+  width: 44%;
+}
+
+.schedule-container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+
+  margin-bottom: 4rem;
+}
+
+.table-container {
+  width: 53%
+}
+
+.char-style-noto.heading {
+  font-size: 3.2rem;
+  font-weight: bold;
+  text-align: center;
+
+  margin-bottom: 2.6rem;
+}
+
+form label {
+  font-family: "NotoSansCJKjp";
+  font-size: 1.8rem;
+  font-weight: bold;
+
+  display: inline-block;
+  margin-bottom: 1.8rem;
+}
+
+form input {
+  width: 100%;
+  background-color: #E8B146;
+  border: none;
+  border-radius: .5rem;
+  opacity: 0.2;
+  
+
+  padding: 2rem;
+  margin-bottom: 2.4rem;
 }
 
