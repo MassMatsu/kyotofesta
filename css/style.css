@@ -19,7 +19,6 @@ header {
 header {
   font-size: 2.3rem;
   font-family: var(--font-family-dnp-shueimgostd);
-
   color: #ffffff;
 }
 
@@ -42,8 +41,8 @@ nav {
 /***********************/
 
 .top-info-container {
+  /* width: 53.4%; */
   width: 85.1rem;
-
   position: absolute;
   top: 50%;
   left: 50%;
@@ -56,10 +55,13 @@ nav {
 
 .heading-top {
   font-size: 6.4rem;
+  font-weight: bold;
   /* line-height: 20px; */
 }
 
-.heading-top img {
+.title-img-container {
+  width: 100%;
+
   margin-top: 4vh;
   margin-bottom: 3.8vh;
 }
@@ -77,8 +79,8 @@ nav {
 }
 
 .logo-round {
-  width: 102px;
-  height: 102px;
+  width: 10.2rem;
+  height: 10.2rem;
   border-radius: 50%;
   background-color: #fff;
   color: #5e9b79;
@@ -94,7 +96,7 @@ nav {
 
 .logo-round span {
   font-size: 2.6rem;
-  letter-spacing: 2.6px;
+  letter-spacing: 0.26rem;
 }
 
 .date-info p {
@@ -147,7 +149,7 @@ nav {
 
 .top-bg-right {
   /* height: 100%; */
-  width: 30%;
+  width: 29.5%;
 
   position: absolute;
   top: 0;
@@ -284,7 +286,8 @@ nav {
 }
 
 .fes-img-container {
-  width: 55.8rem;
+  /* width: 55.8rem; */
+  width: 100%;
   height: 38.5rem;
 
   margin-bottom: 3.5rem;
@@ -298,7 +301,7 @@ nav {
 }
 
 .figure-title-container {
-  /* margin-bottom: 2.8rem; */
+  margin-bottom: 2.8rem;
 
   display: flex;
   align-items: center;
@@ -346,10 +349,13 @@ nav {
 
   padding: 2.5rem 3.2rem;
   border-radius: 1rem;
+
+  display: flex;
 }
 
-.event-date span {
+.event-date div {
   font-weight: bold;
+  margin-right: 1.5rem;
 }
 
 .event-date div {
@@ -371,10 +377,6 @@ nav {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   
-}
-
- .more-event-container div {
-
 }
 
 .more-event-container h4 {
@@ -453,53 +455,236 @@ nav {
   background-color: #fbfce6;
 }
 
-.inner-container p {
+.section-show .inner-container p {
   margin-bottom: 3.5rem;
 }
-
 
 .stage-img-container{
   width: 44%;
 }
 
-.schedule-container {
-  display: flex;
-  justify-content: space-between;
-  /* align-items: center; */
-
-  margin-bottom: 4rem;
+.stage-img-container img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
 }
+
 
 .table-container {
-  width: 53%
+  width: 52.5%
 }
 
-.char-style-noto.heading {
-  font-size: 3.2rem;
-  font-weight: bold;
-  text-align: center;
-
-  margin-bottom: 2.6rem;
+form {
+  font-family: "NotoSansCJKjp";
+  font-size: 1.8rem;
 }
 
 form label {
-  font-family: "NotoSansCJKjp";
-  font-size: 1.8rem;
   font-weight: bold;
-
   display: inline-block;
   margin-bottom: 1.8rem;
 }
 
 form input {
   width: 100%;
-  background-color: #E8B146;
+  background-color: rgb(232, 177, 70, 0.2);
   border: none;
   border-radius: .5rem;
-  opacity: 0.2;
-  
 
   padding: 2rem;
   margin-bottom: 2.4rem;
 }
+
+form input::placeholder {
+  color:rgb(51, 51, 51, 0.4);
+  opacity: 1;
+  font-size: 1.8rem;
+}
+
+form label span {
+  font-size: 1.4rem;
+  color: #fff;
+  background-color: #4E8E6E;
+  padding: .5rem 1rem;
+  border-radius: .1rem;
+  margin-left: 1rem;
+}
+
+form div:nth-of-type(4) label {
+  display: block;
+}
+
+form div:last-of-type label {
+  display: block;
+}
+
+form div:nth-of-type(4) input {
+  width: 23%;
+}
+
+form div:last-of-type input {
+  width: 23%;
+  margin-bottom: 4rem;
+}
+
+form div:last-of-type span {
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+/***********************/
+/* SECTION TOUR */
+/***********************/
+
+.section-tour {
+  background-color: #fbfce6;
+}
+
+.black {
+  color: #333;
+}
+
+.guide-text-box {
+  width: 90%;
+}
+
+.guide-text-box p {
+  margin-bottom: 3.2rem;
+}
+
+.guide-text-box h4 {
+  font-size: 2.4rem;
+  font-family: "NotoSansCJKjp";
+  font-weight: bold;
+  margin-bottom: 1.9rem;
+}
+
+.guide-img-container {
+  width: 65%;
+  margin-left: 4%;
+}
+
+.guide-img-container img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.guide-img-container p {
+  text-align: center;
+}
+
+.guide-img-container div {
+  margin-bottom: 2.7rem;
+}
+
+/***********************/
+/* SECTION STAMP RALLY */
+/***********************/
+
+.section-rally {
+  background-image: url(../img/section_bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.inner-container.yellow {
+  background-color: #fbfce6;
+}
+
+.char-style-noto h5 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 1.9rem;
+}
+
+.rally-text-box {
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  letter-spacing: .01rem;
+
+  margin-bottom: 5.5rem;
+}
+
+.rally-info {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 6.4rem;
+}
+
+.rally-text-info {
+  
+}
+
+.section-rally h4{
+  margin-bottom: 4rem;
+}
+
+.round-number {
+  width: 3.1rem; 
+  height: 3.1rem;
+  /* line-height: 3.2rem; */
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1rem;
+  font-family: var(--font-family-dnp-shueimgostd);
+  background-color: #4E8E6E;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 2.8rem;
+}
+
+.rally-info li p {
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  letter-spacing: .01rem;
+  color: #4E8E6E;
+
+  margin-bottom: 2.8rem;
+}
+
+.rally-info li{
+  display: flex;
+}
+
+.rally-img-container {
+  width: 75%;
+
+  margin-left: 5.6rem;
+}
+
+.rally-img-container img {
+  border-radius: 1rem;
+}
+
+.rally-map-container {
+  width: 100%;
+  height: 62.6rem;
+
+  border-radius: .5rem;
+
+  background: #333;
+  opacity: 0.5;
+
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 3rem;
+}
+
+
+
+
+
+
 

@@ -7,7 +7,8 @@
   --color-333333: #333333;
 
   /* Font/text values */
-  --font-family-dnp-shueimgostd: DNP ShueiMGoStd;
+  /* --font-family-dnp-shueimgostd: DNP ShueiMGoStd; */
+  --font-family-dnp-shueimgostd: "sofia-pro-soft","dnp-shuei-mgothic-std";
   --font-style-normal: normal;
   --font-weight-normal: normal;
   --font-size-48: 48px;
@@ -26,6 +27,29 @@ html {
   /* percentage of browser font-size setting */
   font-size: 62.5%;
 }
+
+/* @media screen and (max-width: 1850px) {
+  html {
+    font-size: 55%;
+  }
+}*/
+
+@media screen and (max-width: 1440px) {
+  html {
+    font-size: 45%;
+  }
+}
+@media screen and (max-width: 1920px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+/* @media screen and (max-width: 1024px) {
+  html {
+    font-size: 30%;
+  }
+} */
 
 body: {
 
@@ -55,7 +79,6 @@ a:hover, a:active {
   margin-bottom: 9.3rem !important;
 }
 
-
 /* Character Styles */
 .char-style {
   /* font: normal normal normal 18px/32px Hiragino Sans; */
@@ -67,7 +90,7 @@ a:hover, a:active {
 }
 
 .char-style-heading {
-  font-family: "DNP ShueiMGoStd";
+  font-family: "sofia-pro-soft","dnp-shuei-mgothic-std";
   font-size: 4.8rem;
   color: #fff;
   text-align: center;
@@ -88,6 +111,14 @@ a:hover, a:active {
   font-family: "NotoSansCJKjp";
 }
 
+.char-style-noto.heading {
+  font-size: 3.2rem;
+  font-weight: bold;
+  text-align: center;
+
+  margin-bottom: 2.6rem;
+}
+
 /* .char-style-header {
   font-size: 2.3rem;
   font-family: var(--font-family-dnp-shueimgostd);
@@ -95,9 +126,8 @@ a:hover, a:active {
 } */
 
 /* button */
-.button:link, .button:visited {
+.button {
   display: block;
-  width: 100%;
   padding-top: 2rem;
   padding-bottom: 2rem;
   border: 1px solid #282828;
@@ -111,9 +141,18 @@ a:hover, a:active {
   color: #282828;
 }
 
+.button:link, .button:visited {
+  width: 100%;
+}
+
 .btn-arrow {
   float: right;
   margin-right: 1.5rem;
+}
+
+.button.sml {
+  width: 51.5%;
+  margin: 0 auto;
 }
 
 
@@ -133,8 +172,15 @@ a:hover, a:active {
   padding: 5.6rem;
 }
 
-.inner-container p {
+.schedule-container {
+  display: flex;
+  justify-content: space-between;
 
+  margin-bottom: 4rem;
+}
+
+.inner-container.white {
+  background-color: #fff;
 }
 
 .grid {
