@@ -91,6 +91,7 @@ a:hover, a:active {
 
 .char-style-heading {
   font-family: "sofia-pro-soft","dnp-shuei-mgothic-std";
+  font-weight: bold;
   font-size: 4.8rem;
   color: #fff;
   text-align: center;
@@ -108,7 +109,8 @@ a:hover, a:active {
 } */
 
 .char-style-noto {
-  font-family: "NotoSansCJKjp";
+  /* font-family: "NotoSansCJKjp"; */
+  font-family: "Hiragino Kaku Gothic Pro";
 }
 
 .char-style-noto.heading {
