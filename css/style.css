@@ -1,10 +1,6 @@
 /***********************/
 /* HEADER */
 /***********************/
-/* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 64px/141px var(--unnamed-font-family-dnp-shueimgostd);
-letter-spacing: var(--unnamed-character-spacing-0);
-text-align: left;
-font: normal normal normal 64px/141px DNP ShueiMGoStd; */
 
 header {
   background-image: url(../img/top_bg.jpg);
@@ -167,9 +163,7 @@ nav {
 /***********************/
 /* description */
 /***********************/
-/* .section-description {
-  background-color: var(--color-fbfce6);
-} */
+
 .section-description {
   background-color: var(--color-fbfce6);
 }
@@ -690,9 +684,129 @@ form div:last-of-type span {
   margin-top: 3rem;
 }
 
+/***********************/
+/* FOOTER */
+/***********************/
 
+footer {
+  background-image: url(../img/section_bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
 
+footer .site-title {
+  font-family: var(--font-family-dnp-shueimgostd);
+  font-weight: bold;
+}
 
+footer .site-title p:first-child {
+  font-size: 1.5rem;
+}
 
+footer .site-title p:last-child {
+  font-size: 2rem;
+}
 
+footer .links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .links li{
+  font-size: 1.6rem;
+  font-family: "NotoSansCJKjp";
+  font-weight: bold;
+  padding-bottom: .5rem;
+  
+  border-bottom: 1px dashed #333;
+}
+
+.button.enquiry {
+  height: 5rem;
+  align-self: center;
+  color: #fff;
+  background-color: #4E8E6E;
+  border: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-medias {
+display: flex;
+}
+
+.stakeholder {
+  font-size: 1.6rem;
+  font-family: "NotoSansCJKjp";
+
+  display: flex;
+}
+
+.stakeholder .sub{
+  display: flex;
+}
+
+.stakeholder .sub-title {
+  font-weight: bold;
+
+  margin-right: 1.8rem;
+}
+
+.stakeholder .sub-detail p{
+  opacity: 0.75;
+}
+
+.stakeholder .sub-detail p:first-child{
+  opacity: 0.75;
+}
+.stakeholder .sub-detail p:last-child{
+  font-size: 1.3rem;
+  opacity: 0.5;
+}
+
+.svg-window {
+  width: 1.5rem;
+  margin-left: .5rem;
+}
+
+.event-links-title p {
+  font-family: "NotoSansCJKjp";
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #4E8E6E;
+
+  margin-bottom: 1.6rem;
+}
+
+.event-links li {
+  font-family: "NotoSansCJKjp";
+  font-size: 1.6rem;
+  font-weight: normal;
+  color: #4E8E6E;
+
+  /* border-bottom: .1rem solid #4E8E6E; */
+
+  display: flex;
+  align-items: center;
+}
+
+footer .first {
+  margin-bottom: 5rem;
+}
+
+/* .inner-container.white {
+  margin-bottom: 6rem;
+} */
+
+.copy-right {
+  font-size: 1.4rem;
+
+  display: flex;
+  justify-content: center;
+
+  margin-top: 6rem;
+}
 
