@@ -142,17 +142,18 @@ nav {
 
 .social-medias-top {
   position: absolute;
-  top: 0;
-  right: 0;
-  
-  display: flex;
+  top: 5.5vh;
+  right: 3%;
 
+  display: flex;
+  z-index: 1;
 }
 .social-medias-top div {
-
-
   width: 7.4rem;
+  width: 30%;
+  margin-left: 5%;
 }
+
 
 .top-bg-left {
   /* height: 100%; */
@@ -163,7 +164,6 @@ nav {
 }
 
 .top-bg-right {
-  /* height: 100%; */
   width: 29.2%;
 
   position: absolute;
