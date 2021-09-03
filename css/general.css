@@ -23,19 +23,21 @@
 
 html {
   /* percentage of browser font-size setting */
-  font-size: 62.5%;
+  font-size: 53.125%;
+  font-size: 51.1%;
+  /* font-size: 62.5%; */
 }
 
-@media screen and (max-width: 1440px) {
+/* @media screen and (max-width: 1440px) {
+  html {
+    font-size: 60%;
+  }
+} */
+/* @media screen and (max-width: 1920px) {
   html {
     font-size: 45%;
   }
-}
-@media screen and (max-width: 1920px) {
-  html {
-    font-size: 45%;
-  }
-}
+} */
 
 /* @media screen and (max-width: 1024px) {
   html {
@@ -129,8 +131,10 @@ a:hover, a:active {
 }
 
 .btn-arrow {
-  float: right;
-  margin-right: 1.5rem;
+  font-size: 1.8rem;
+
+  /* float: right;
+  margin-right: 1.5rem; */
 }
 
 .button.sml {
@@ -166,7 +170,7 @@ a:hover, a:active {
   background-color: #fff;
 }
 
-.grid {
+.grid-2 {
   display: grid;
   row-gap: 8rem;
   column-gap: 8.4rem;
@@ -176,12 +180,19 @@ a:hover, a:active {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.grid-3 {
+  display: grid;
+}
+
 .grid-3cols {
   grid-template-columns: 19% 1fr 21.8%;
-  column-gap: 5rem;
   column-gap: 5%;
 }
 
+.grid-3cols.second {
+  grid-template-columns: 15% 1fr 26%;
+  column-gap: 5%;  
+}
 
 
 

@@ -59,7 +59,6 @@
             <div class="title-img-container">
               <img src="img/title.svg" alt="フェスタイトル" />
             </div>
-            
           </h1>
 
           <div class="dates-container">
@@ -94,6 +93,18 @@
               /></a>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div class="social-medias-top">
+        <div>
+          <img src="img/icon_header_twitter.svg" alt="twitterアイコン">
+        </div>
+        <div>
+          <img src="img/icon_header_facebook.svg" alt="facebookアイコン">
+        </div>
+        <div>
+          <img src="img/icon_header_instagram.svg" alt="instagramアイコン">
         </div>
       </div>
 
@@ -135,8 +146,12 @@
             </div>
 
             <div class="allows-icons">
-              <i class="fas fa-arrow-alt-circle-left">&larr;</i>
-              <i class="fas fa-arrow-alt-circle-right">&rarr;</i>
+              <div>
+                <img src="img/icon_green_arrow.svg" alt="">
+              </div>
+              <div>
+                <img src="img/icon_green_arrow.svg" alt="">
+              </div>
             </div>
 
             <div class="description-img">
@@ -164,9 +179,18 @@
           </article>
 
           <div class="fes-contents">
-            <h4>WEBでもリアルでも楽しめるコンテンツが盛り沢山！</h4>
 
-            <div class="grid grid-2cols">
+            <div class="title-container">
+              <div>
+                <img src="img/icon_quotation.svg" alt="">
+              </div>
+              <h4>WEBでもリアルでも楽しめるコンテンツが盛り沢山！</h4>
+              <div>
+                <img src="img/icon_quotation.svg" alt="">
+              </div>
+            </div>
+
+            <div class="grid-2 grid-2cols">
               <figure>
                 <div class="fes-img-container">
                   <img
@@ -203,6 +227,7 @@
                 <a href="#" class="button"
                   >コンテンツ紹介へ <span class="btn-arrow">&darr;</span></a
                 >
+                <a href="#" class="arrow"></a>
               </figure>
 
               <figure>
@@ -800,19 +825,68 @@
         <h3 class="char-style-heading margin-bottom-lg">ステージショー</h3>
 
         <div class="inner-container yellow">
-          <p class="char-style">
+          <p class="char-style text-box">
             例年植物園で開催する「府民交流フェスタ」にて参加団体によって披露されるさまざまなステージが、今年度も開催することが決定しました。プロによるステージをお楽しみください！
             ※都合により、時間や内容の変更が生じる場合があります。
           </p>
+
+
+
           <div class="schedule-container">
             <div class="stage-img-container">
               <img src="img/contents_stageshow.jpg" alt="ステージショーの様子" />              
             </div>
 
-            <table class="table-container">
+
+            <div class="table-container">
+              <div class="table-header">ステージショースケジュール</div>
+
+              <div class="table-data">
+                <span>11:00</span>
+                <p>
+                  オープニングステージ<br>
+                  オープニング演奏<br>
+                  <span>京都第二赤十字病院</span>
+                </p>
+              </div>
+              <div class="table-data">
+                <span>11:30</span>
+                <p>
+                  東映太秦映画村がやってきた！<br>
+                  アイドルステージ＆チャンバラショー（1回目）<br>
+                  <span>東映京都撮影所</span>
+                </p>
+              </div>
+              <div class="table-data">
+                <span>12:00</span>
+                <p>
+                  京大金剛会による能楽<br>
+                  <span>京大金剛会</span>
+                </p>
+              </div>
+              <div class="table-data">
+                <span>12:30</span>
+                <p>
+                  ステージタイトル<br>
+                  <span>団体名</span> 
+                </p>
+              </div>
+              <div class="table-data">
+                <span>13:00</span>
+                <p>
+                  東映太秦映画村がやってきた！<br />
+                  アイドルステージ＆チャンバラショー（2回目）<br>
+                  <span>東映京都撮影所</span>
+                </p>
+              </div>
+            </div>
+
+
+            
+            <!-- <table class="table-container">
               <thead>
                 <tr>
-                  <th colspan="2">ステージショースケジュール</th>
+                  <th colspan="2" class="table-header">ステージショースケジュール</th>
                 </tr>
               </thead>
 
@@ -864,7 +938,7 @@
                   <td>東映京都撮影所</td>
                 </tr>
               </tbody>
-            </table>
+            </table> -->
           </div>
 
           <form action="">
@@ -895,9 +969,17 @@
               <input type="number" name="numOfPeople" placeholder="４"/> <span>人</span> 
             </div>
 
-            <button class="button sml" type="submit">内容確認へ<span class="btn-arrow">&rarr;</span> </button>
+            <button class="button sml" type="submit">内容確認へ<span class="btn-arrow">&rAarr;</span> </button>
           </form>
         </div>
+
+        <div class="stageshow-flower-left">
+          <img src="img/stageshow_bg_flower_l.png" alt="花の絵" >
+        </div>
+        <div class="stageshow-flower-right">
+          <img src="img/stageshow_bg_flower_r.png" alt="花の絵">
+        </div>
+        
       </section>
 
       <!-- ガイドツアー -->
@@ -970,7 +1052,7 @@
             「植物園スタンプラリー」を開催します！
           </p>
 
-          <div class="rally-info">
+          <div class="rally-info schedule-container">
             <div class="rally-text-info">
               <h4>リアルスタンプラリー＠植物園</h4>
               <ul>
@@ -1018,8 +1100,9 @@
 
     <footer >
       <div class="container">
+     
         <div class="inner-container white">
-        <div class="grid grid-3cols first" >
+        <div class="grid-3 grid-3cols first" >
           <div class="site-title">
             <p>わくわく体験！府民みんなの</p>
             <p>「府民交流フェスタ」!</p>
@@ -1035,33 +1118,17 @@
           <button class="button enquiry"><span></span> お問い合わせ</button>
         </div>
     
-        <div class="grid grid-3cols">
+        <div class="grid-3 grid-3cols second">
           <ul class="social-medias">
-            <li><svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
-              <g id="グループ_433" data-name="グループ 433" transform="translate(-56 -148)">
-                <g id="楕円形_14" data-name="楕円形 14" transform="translate(56 148)" fill="#fff" stroke="#00acee" stroke-width="1">
-                  <circle cx="22" cy="22" r="22" stroke="none" />
-                  <circle cx="22" cy="22" r="21.5" fill="none" />
-                </g>
-                <path id="Icon_metro-twitter" data-name="Icon metro-twitter"
-                  d="M21.654,6.653a7.828,7.828,0,0,1-2.249.616A3.927,3.927,0,0,0,21.127,5.1a7.838,7.838,0,0,1-2.486.95,3.919,3.919,0,0,0-6.672,3.571A11.115,11.115,0,0,1,3.9,5.534a3.919,3.919,0,0,0,1.212,5.227,3.9,3.9,0,0,1-1.773-.49c0,.016,0,.033,0,.049a3.918,3.918,0,0,0,3.141,3.839,3.922,3.922,0,0,1-1.768.067,3.919,3.919,0,0,0,3.657,2.719A7.855,7.855,0,0,1,3.5,18.621a7.941,7.941,0,0,1-.934-.055,11.081,11.081,0,0,0,6,1.759A11.063,11.063,0,0,0,19.711,9.186q0-.255-.011-.507a7.953,7.953,0,0,0,1.954-2.027Z"
-                  transform="translate(66.832 157.963)" fill="#00acee" />
-              </g>
-            </svg>
+            <li>
+              <img src="img/icon_footer_twitter.svg" alt="">
             </li>
-            <li><svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
-              <g id="グループ_432" data-name="グループ 432" transform="translate(-110 -148)">
-                <g id="楕円形_15" data-name="楕円形 15" transform="translate(110 148)" fill="#fff" stroke="#1877f2" stroke-width="1">
-                  <circle cx="22" cy="22" r="22" stroke="none" />
-                  <circle cx="22" cy="22" r="21.5" fill="none" />
-                </g>
-                <path id="Icon_ionic-logo-facebook" data-name="Icon ionic-logo-facebook"
-                  d="M19.752,4.5H5.391a.892.892,0,0,0-.891.891V19.752a.892.892,0,0,0,.891.891h7.18v-6.39h-1.93V11.9h1.93v-1.74a3.067,3.067,0,0,1,3.309-3.22c.891,0,1.85.067,2.073.1V9.213H16.469c-1.013,0-1.207.479-1.207,1.186v1.5h2.413l-.315,2.354h-2.1v6.39h4.49a.892.892,0,0,0,.891-.891V5.391A.892.892,0,0,0,19.752,4.5Z"
-                  transform="translate(119.428 157.645)" fill="#1877f2" />
-              </g>
-            </svg>
-</li>
-            <li><img src="img/icon_footer_instagram.svg" alt="instagram icon"></li>
+            <li>
+              <img src="img/icon_footer_facebook.svg" alt="">
+            </li> 
+            <li>
+              <img src="img/icon_footer_instagram.svg" alt="instagram icon">
+            </li>
           </ul>
 
           <div class="stakeholder">
@@ -1089,25 +1156,22 @@
             <p>同時開催イベント</p>
             <ul class="event-links">
               <li>
-      
-                  地方創生パン祭り
+                地方創生パン祭り
                 <svg 
-                class="svg-window"
-                xmlns="http://www.w3.org/2000/svg" width="22.201" height="20.703" viewBox="0 0 22.201 20.703">
-  <g id="グループ_442" data-name="グループ 442" transform="translate(-363.5 -16.01)">
-    <g id="長方形_58" data-name="長方形 58" transform="translate(365 24.872)" fill="#fff" stroke="#5d8c70" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
-      <rect width="12.55" height="10.34" rx="1" stroke="none"/>
-      <rect x="-0.75" y="-0.75" width="14.05" height="11.84" rx="1.75" fill="none"/>
-    </g>
-    <rect id="長方形_60" data-name="長方形 60" width="17.724" height="10.816" rx="1" transform="translate(367.954 20.464)" fill="#fff"/>
-    <g id="長方形_59" data-name="長方形 59" transform="translate(371.647 17.51)" fill="#fff" stroke="#5d8c70" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
-      <rect width="12.555" height="10.339" rx="1" stroke="none"/>
-      <rect x="-0.75" y="-0.75" width="14.055" height="11.839" rx="1.75" fill="none"/>
-    </g>
-  </g>
+                  class="svg-window"
+                  xmlns="http://www.w3.org/2000/svg" width="22.201" height="20.703" viewBox="0 0 22.201 20.703">
+                  <g id="グループ_442" data-name="グループ 442" transform="translate(-363.5 -16.01)">
+                  <g id="長方形_58" data-name="長方形 58" transform="translate(365 24.872)" fill="#fff" stroke="#5d8c70" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                  <rect width="12.55" height="10.34" rx="1" stroke="none"/>
+                  <rect x="-0.75" y="-0.75" width="14.05" height="11.84" rx="1.75" fill="none"/>
+                  </g>
+                  <rect id="長方形_60" data-name="長方形 60" width="17.724" height="10.816" rx="1" transform="translate(367.954 20.464)" fill="#fff"/>
+                  <g id="長方形_59" data-name="長方形 59" transform="translate(371.647 17.51)" fill="#fff" stroke="#5d8c70" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                  <rect width="12.555" height="10.339" rx="1" stroke="none"/>
+                  <rect x="-0.75" y="-0.75" width="14.055" height="11.839" rx="1.75" fill="none"/>
+                    </g>
+                  </g>
                 </svg>
-                
-                
               </li>
               <li>京のむらづくり交流フェア
                 <svg 
@@ -1118,10 +1182,10 @@
                     stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
                     <rect width="12.55" height="10.34" rx="1" stroke="none" />
                     <rect x="-0.75" y="-0.75" width="14.05" height="11.84" rx="1.75" fill="none" />
-                  </g>
-                  <rect id="長方形_60" data-name="長方形 60" width="17.724" height="10.816" rx="1" transform="translate(367.954 20.464)"
-                    fill="#fff" />
-                  <g id="長方形_59" data-name="長方形 59" transform="translate(371.647 17.51)" fill="#fff" stroke="#5d8c70"
+                    </g>
+                    <rect id="長方形_60" data-name="長方形 60" width="17.724" height="10.816" rx="1" transform="translate(367.954 20.464)"
+                      fill="#fff" />
+                    <g id="長方形_59" data-name="長方形 59" transform="translate(371.647 17.51)" fill="#fff" stroke="#5d8c70"
                     stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
                     <rect width="12.555" height="10.339" rx="1" stroke="none" />
                     <rect x="-0.75" y="-0.75" width="14.055" height="11.839" rx="1.75" fill="none" />
@@ -1133,14 +1197,14 @@
                 class="svg-window"
                 xmlns="http://www.w3.org/2000/svg" width="22.201" height="20.703" viewBox="0 0 22.201 20.703">
                 <g id="グループ_442" data-name="グループ 442" transform="translate(-363.5 -16.01)">
-                  <g id="長方形_58" data-name="長方形 58" transform="translate(365 24.872)" fill="#fff" stroke="#5d8c70"
-                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
-                    <rect width="12.55" height="10.34" rx="1" stroke="none" />
-                    <rect x="-0.75" y="-0.75" width="14.05" height="11.84" rx="1.75" fill="none" />
-                  </g>
-                  <rect id="長方形_60" data-name="長方形 60" width="17.724" height="10.816" rx="1" transform="translate(367.954 20.464)"
-                    fill="#fff" />
-                  <g id="長方形_59" data-name="長方形 59" transform="translate(371.647 17.51)" fill="#fff" stroke="#5d8c70"
+                <g id="長方形_58" data-name="長方形 58" transform="translate(365 24.872)" fill="#fff" stroke="#5d8c70"
+                stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                <rect width="12.55" height="10.34" rx="1" stroke="none" />
+                <rect x="-0.75" y="-0.75" width="14.05" height="11.84" rx="1.75" fill="none" />
+                </g>
+                <rect id="長方形_60" data-name="長方形 60" width="17.724" height="10.816" rx="1" transform="translate(367.954 20.464)"
+                fill="#fff" />
+                <g id="長方形_59" data-name="長方形 59" transform="translate(371.647 17.51)" fill="#fff" stroke="#5d8c70"
                     stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
                     <rect width="12.555" height="10.339" rx="1" stroke="none" />
                     <rect x="-0.75" y="-0.75" width="14.055" height="11.839" rx="1.75" fill="none" />
@@ -1157,6 +1221,7 @@
           <p>All rights reserved.</p>
         </div>
         </div>
+     
       </div>
     </footer>
 
