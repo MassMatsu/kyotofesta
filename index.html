@@ -43,7 +43,7 @@
 
   <body>
     <!-- ファーストビュー -->
-    <header>
+    <header id="header">
       <nav>
         <ul class="nav-container">
           <li><a href="#description">開催概要</a></li>
@@ -83,12 +83,12 @@
 
           <div class="banners-container">
             <div>
-              <a href="#"
+              <a href="#guide-tour"
                 ><img src="img/guidtour-banner.jpg" alt="ガイドツアー案内へ"
               /></a>
             </div>
             <div>
-              <a href="#"
+              <a href="#stamp-rally"
                 ><img src="img/stamp-banner.jpg" alt="スタンプラリー案内へ"
               /></a>
             </div>
@@ -121,7 +121,11 @@
     <main>
       <section id="description" class="section-description">
         <div class="container">
-          <h2>WEBとリアルのハイブリットフェス</h2>
+          <div class="heading-container">
+            <h2 class="heading-primary triangle yell">WEBとリアルのハイブリットフェス</h2>
+            <div class="triangle-background yel"></div>
+          </div>
+          
           <article class="text-box-center char-style">
             <p>
               平成22年度に始まった「府民交流フェスタ」は、<br />
@@ -476,10 +480,10 @@
 
               <ul>
                 <li class="more-event">
-                  <h5>
+                  <a href="#">
                     地域創生パン祭り
                     <svg
-                      class="svg-window"
+                      
                       xmlns="http://www.w3.org/2000/svg"
                       width="22.201"
                       height="20.703"
@@ -551,8 +555,8 @@
                         </g>
                       </g>
                     </svg>
-                  </h5>
-                  <p>
+                  </a>
+                  <p class="location">
                     <svg
                       class="svg-location"
                       xmlns="http://www.w3.org/2000/svg"
@@ -589,7 +593,7 @@
                   <p>障がい者施設による創作パンなどのテイクアウト販売</p>
                 </li>
                 <li class="more-event">
-                  <h5>
+                  <a href="#">
                     京のむらづくり交流フェア
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -663,8 +667,8 @@
                         </g>
                       </g>
                     </svg>
-                  </h5>
-                  <p>
+                  </a>
+                  <p class="location">
                     <svg
                       class="svg-location"
                       xmlns="http://www.w3.org/2000/svg"
@@ -701,7 +705,7 @@
                   <p>府内各地の野菜や加工品のテイクアウト販売</p>
                 </li>
                 <li class="more-event">
-                  <h5>
+                  <a href="#">
                     きょうと子育て環境日本一サミット <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="22.201"
@@ -774,8 +778,8 @@
                         </g>
                       </g>
                     </svg>
-                  </h5>
-                  <p>
+                  </a>
+                  <p class="location">
                     <svg
                       class="svg-location"
                       xmlns="http://www.w3.org/2000/svg"
@@ -822,7 +826,11 @@
       <!-- ステージショー -->
       <section id="stage-show" class="section-show">
         <div class="container">
-        <h3 class="char-style-heading margin-bottom-lg">ステージショー</h3>
+          <div class="heading-container">
+           <h3 class="char-style-heading heading-primary triangle grn">ステージショー</h3>
+           <div class="triangle-background green"></div>
+          </div>
+        
 
         <div class="inner-container yellow">
           <p class="char-style text-box">
@@ -880,65 +888,6 @@
                 </p>
               </div>
             </div>
-
-
-            
-            <!-- <table class="table-container">
-              <thead>
-                <tr>
-                  <th colspan="2" class="table-header">ステージショースケジュール</th>
-                </tr>
-              </thead>
-
-              <tbody>
-                <tr>
-                  <th>11:00</th>
-                  <td>オープニングステージ オープニング演奏</td>
-                </tr>
-                <tr>
-                  <td>&nbsp;</td>
-                  <td>京都第二赤十字病院</td>
-                </tr>
-                <tr>
-                  <th>11:30</th>
-                  <td>
-                    東映太秦映画村がやってきた！<br />
-                    アイドルステージ＆チャンバラショー（1回目）
-                  </td>
-                </tr>
-                <tr>
-                  <td>&nbsp;</td>
-                  <td>東映京都撮影所</td>
-                </tr>
-                <tr>
-                  <th>12:00</th>
-                  <td>京大金剛会による能楽</td>
-                </tr>
-                <tr>
-                  <td>&nbsp;</td>
-                  <td>京大金剛会</td>
-                </tr>
-                <tr>
-                  <th>12:30</th>
-                  <td>ステージタイトル</td>
-                </tr>
-                <tr>
-                  <td>&nbsp;</td>
-                  <td>団体名</td>
-                </tr>
-                <tr>
-                  <th>13:00</th>
-                  <td>
-                    東映太秦映画村がやってきた！<br />
-                    アイドルステージ＆チャンバラショー（2回目）
-                  </td>
-                </tr>
-                <tr>
-                  <td>&nbsp;</td>
-                  <td>東映京都撮影所</td>
-                </tr>
-              </tbody>
-            </table> -->
           </div>
 
           <form action="">
@@ -985,7 +934,11 @@
       <!-- ガイドツアー -->
       <section id="guide-tour" class="section-tour">
         <div class="container">
-        <h3 class="char-style-heading black margin-bottom-lg">植物園ガイドツアー</h3>
+          <div class="heading-container">
+            <h3 class="char-style-heading black heading-primary triangle yell">植物園ガイドツアー</h3>
+            <div class="triangle-background yel"></div>
+          </div>
+        
         <div class="schedule-container char-style">
           <div class="guide-text-box">
             <p class="">
@@ -1016,23 +969,23 @@
 
           <div>
             <label for="">代表者のおなまえ</label>
-            <input type="text" name="name" />
+            <input type="text" name="name" placeholder="府民　太郎"/>
           </div>
           <div>
             <label for="">よみがな</label>
-            <input type="text" name="spell" />
+            <input type="text" name="spell" placeholder="ふみん　たろう"/>
           </div>
           <div>
             <label for="">メールアドレス <span>必須</span></label>
-            <input type="email" name="email" />
+            <input type="email" name="email" placeholder="fuminfesta@example.com"/>
           </div>
           <div>
             <label for="">当日の連絡先（携帯番号）<span>必須</span></label>
-            <input type="text" name="tel" />
+            <input type="text" name="tel" placeholder="090-1234-5678"/>
           </div>
           <div>
             <label for="">参加人数</label>
-            <input type="number" name="numOfPeople" /> 人
+            <input type="number" name="numOfPeople" placeholder="4"/> 人
           </div>
 
           <button type="submit" class="button sml btn-arrow-right">内容確認へ</button>
@@ -1043,7 +996,11 @@
 
       <section id="stamp-rally" class="section-rally">
         <div class="container">
-        <h3 class="char-style-heading white margin-bottom-lg">植物園スタンプラリー</h3>
+          <div class="heading-container">
+            <h3 class="char-style-heading white heading-primary triangle grn">植物園スタンプラリー</h3>
+            <div class="triangle-background green"></div>
+          </div>
+        
 
         <div class="inner-container yellow char-style-noto">
           <p class="rally-text-box">
@@ -1057,13 +1014,18 @@
               <h4>リアルスタンプラリー＠植物園</h4>
               <ul>
                 <li>
-                  <!-- <div class="round-number">1</div> -->
+                  <div class="round-number-container">
+                    <div class="round-number">1</div>
+                  </div>
+                  
                   <p>
                     植物園会場に設置されたテントを見つけたら、パネルに掲載されたQRコードを読み取ってポイントをゲット！
                   </p>
                 </li>
                 <li>
-                  <!-- <div class="round-number">2</div> -->
+                  <div class="round-number-container">
+                    <div class="round-number">2</div>
+                  </div>
                   <p>
                     集める順番は関係ありません。５つ集めるとクリア！その場で記念品をゲットしよう。全て集めるともらえる賞品が変わるかも！？
                   </p>
@@ -1103,31 +1065,40 @@
      
         <div class="inner-container white">
         <div class="grid-3 grid-3cols first" >
-          <div class="site-title">
+          <a href="#header" class="site-title">
             <p>わくわく体験！府民みんなの</p>
             <p>「府民交流フェスタ」!</p>
-          </div>
+          </a>
     
           <ul class="links">
-            <li>開催概要</li>
-            <li>ステージショー</li>
-            <li>植物園ガイドツアー</li>
-            <li>スタンプラリー</li>
+            <li><a href="#description">開催概要</li></a>
+            <li><a href="#stage-show">ステージショー</a> </li>
+            <li><a href="#guide-tour">植物園ガイドツアー</a></li>
+            <li><a href="#stamp-rally">スタンプラリー</a></li>
           </ul>
     
-          <button class="button enquiry"><span></span> お問い合わせ</button>
+          <a href="#" class="button enquiry">
+            <div class="contact-icon">
+              <img src="img/icon-contact-y.png" alt="メールアイコン">
+            </div> <span>お問い合わせ</span></a>
         </div>
     
         <div class="grid-3 grid-3cols second">
           <ul class="social-medias">
             <li>
-              <img src="img/icon_footer_twitter.svg" alt="">
+              <a href="#">
+              <img src="img/icon_footer_twitter.svg" alt="twitterアイコン">
+              </a>
             </li>
             <li>
-              <img src="img/icon_footer_facebook.svg" alt="">
+              <a href="#">
+              <img src="img/icon_footer_facebook.svg" alt="facebookアイコン">
+              </a>
             </li> 
             <li>
-              <img src="img/icon_footer_instagram.svg" alt="instagram icon">
+              <a href="#">
+              <img src="img/icon_footer_instagram.svg" alt="instagramアイコン">
+              </a>
             </li>
           </ul>
 
@@ -1156,6 +1127,7 @@
             <p>同時開催イベント</p>
             <ul class="event-links">
               <li>
+                <a href="#">
                 地方創生パン祭り
                 <svg 
                   class="svg-window"
@@ -1172,8 +1144,11 @@
                     </g>
                   </g>
                 </svg>
+                </a>
               </li>
-              <li>京のむらづくり交流フェア
+              <li>
+                <a href="#">
+                京のむらづくり交流フェア
                 <svg 
                 class="svg-window"
                 xmlns="http://www.w3.org/2000/svg" width="22.201" height="20.703" viewBox="0 0 22.201 20.703">
@@ -1192,8 +1167,13 @@
                   </g>
                 </g>
                 </svg>
+                </a>
               </li>
-              <li>きょうと子育て環境日本一サミット<svg 
+              <li>
+                <a href="#">
+                きょうと子育て環境日本一サミット
+              
+              <svg 
                 class="svg-window"
                 xmlns="http://www.w3.org/2000/svg" width="22.201" height="20.703" viewBox="0 0 22.201 20.703">
                 <g id="グループ_442" data-name="グループ 442" transform="translate(-363.5 -16.01)">
@@ -1211,6 +1191,7 @@
                   </g>
                 </g>
               </svg>
+              </a>
               </li>
             </ul>
           </div>

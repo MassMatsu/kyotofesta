@@ -14,6 +14,7 @@ header {
 
 header {
   font-size: 2.3rem;
+  font-size: 2rem;
   font-family: var(--font-family-dnp-shueimgostd);
   font-weight: bold;
   color: #ffffff;
@@ -35,43 +36,39 @@ nav {
   color: #fff;
 }
 
+.nav-container a:hover, .nav-container a:active {
+  opacity: 0.7;
+  transition: .3s;
+}
+
 /***********************/
 
 .top-info-container {
   /* width: 53.4%; */
   max-width: 85.1rem;
-  max-width: 80rem;
+  max-width: 45%;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-52%, -50%)
-  /* height: 85vh;
-  display: flex;
-  justify-content: center;
-  align-items: center; */
+  transform: translate(-52%, -47%)
 }
 
 .heading-top {
   font-size: 6.4rem;
-  font-size: 6rem;
+  font-size: 5.5rem;
   font-weight: bold;
-  /* line-height: 20px; */
 }
 
 .title-img-container {
-  width: 100%;
-  margin: 3.5vh auto 3vh auto;
-  /* margin-top: 4vh;
-  margin-bottom: 3.8vh;
-  margin-left: auto;
-  margin-right: auto; */
+  width: 95%;
+  margin: 3vh auto 2.7vh auto;
 }
 
 .dates-container {
   display: flex;
   justify-content: space-between;
 
-  margin-bottom: 4.5rem;
+  margin-bottom: 4rem;
 }
 
 .date-info {
@@ -80,15 +77,15 @@ nav {
 }
 
 .logo-round {
-  width: 10.2rem;
-  height: 10.2rem;
+  width: 9rem;
+  height: 9rem;
   border-radius: 50%;
   background-color: #fff;
   color: #5e9b79;
   font-size: 2rem;
   /* line-height: 44px; */
 
-  margin-right: 2rem;
+  margin-right: 1.5rem;
 
   display: flex;
   justify-content: center;
@@ -96,16 +93,16 @@ nav {
 }
 
 .logo-round span {
-  font-size: 2.6rem;
+  font-size: 2rem;
   letter-spacing: 0.26rem;
 }
 
 .date-info p {
-  font-size: 3.9rem;
+  font-size: 3.2rem;
 }
 
 .date-info h2 :first-child {
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.4rem;
 }
 
 .margin-top {
@@ -113,15 +110,16 @@ nav {
 }
 
 .date-info .date {
-  font-size: 5.2rem;
+  font-size: 5rem;
+  font-weight: 500;
 }
 
 .day {
-  font-size: 3rem;
+  font-size: 2.6rem;
 }
 
 .date-info .location {
-  font-size: 3.6rem;
+  font-size: 3.2rem;
 }
 
 .margin-left {
@@ -138,6 +136,11 @@ nav {
   /* height: 13.6rem; */
 }
 
+.banners-container div:hover {
+  opacity: 0.7;
+  transition: .3s;
+}
+
 /***************************/
 
 .social-medias-top {
@@ -148,12 +151,20 @@ nav {
   display: flex;
   z-index: 1;
 }
+
 .social-medias-top div {
   width: 7.4rem;
   width: 30%;
   margin-left: 5%;
 }
 
+.social-medias-top div:hover {
+  opacity: 0.7;
+  transition: .3s;
+}
+
+
+/***************************/
 
 .top-bg-left {
   /* height: 100%; */
@@ -164,7 +175,7 @@ nav {
 }
 
 .top-bg-right {
-  width: 29.2%;
+  width: 29.5%;
 
   position: absolute;
   top: 0;
@@ -196,8 +207,6 @@ nav {
   font-family: var(--font-family-dnp-shueimgostd);
   font-weight: bold;
   text-align: center;
-
-  margin-bottom: 4.8rem;
 }
 
 .text-box-center {
@@ -461,21 +470,23 @@ nav {
   padding: 4.8rem 5.6rem 5.3rem 5.6rem;
 }
 
-.more-event h5 {
+.more-event a {
   font-size: 2.4rem;
   color: #4e8e6e;
 
-  padding-bottom: 1rem;
+  padding-bottom: .5rem;
   display: inline-block;
   border-bottom: 2px solid #4e8e6e;
 
   margin-bottom: 2.2rem;
 }
 
-.more-event p {
+.more-event .location {
   display: flex;
   align-items: center;
 }
+
+/* .svg */
 
 .svg-location {
   margin-right: 1rem;
@@ -673,7 +684,7 @@ form div:last-of-type span {
 
 
 /***********************/
-/* SECTION TOUR */
+/* SECTION GUIDE TOUR */
 /***********************/
 
 .section-tour {
@@ -762,29 +773,32 @@ form div:last-of-type span {
   margin-bottom: 6.4rem;
 }
 
-.rally-text-info {
-  
+.rally-text-info ul {
+  margin-bottom: 1rem;
 }
 
 .section-rally h4{
   margin-bottom: 4rem;
 }
 
+.round-number-container {
+  /* width: 80px; */
+  margin-right: 2.5rem;
+}
+
 .round-number {
   width: 3.1rem; 
   height: 3.1rem;
-  /* line-height: 3.2rem; */
+
   border-radius: 50%;
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-family: var(--font-family-dnp-shueimgostd);
   background-color: #4E8E6E;
 
   display: flex;
   justify-content: center;
   align-items: center;
-
-  margin-right: 2.8rem;
 }
 
 .rally-info li p {
@@ -851,16 +865,9 @@ footer .inner-container {
   width: 100%;
 
   position: absolute;
-  top:-14rem;
+  top: -15rem;
   left: 0  
 }
-
-/* footer .container {
-  padding-top: 0;
-  padding-bottom: 0;
-
-  transform: translateY(-7rem);
-} */
 
 footer .site-title {
   font-family: var(--font-family-dnp-shueimgostd);
@@ -901,6 +908,16 @@ footer .links li{
   justify-content: center;
   align-items: center;
 }
+
+.contact-icon {
+  width: 2.3rem;
+
+  display: flex;
+  justify-content: center;
+
+  margin-right: 1rem;
+}
+
 
 .social-medias {
 display: flex;
@@ -960,16 +977,29 @@ display: flex;
 }
 
 .event-links li {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 1rem;
+}
+
+.event-links li:last-child {
+  margin-bottom: 0;
+}
+
+.event-links li a {
   font-family: "NotoSansCJKjp";
   font-size: 1.6rem;
   font-weight: normal;
   color: #4E8E6E;
 
-  /* border-bottom: .1rem solid #4E8E6E; */
+  border-bottom: .1rem solid #4E8E6E;
 
   display: flex;
   align-items: center;
 }
+
+
 
 footer .first {
   margin-bottom: 5rem;
@@ -983,4 +1013,3 @@ footer .first {
 
   margin-top: 6rem;
 }
-
