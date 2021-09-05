@@ -39,11 +39,25 @@ html {
   }
 } */
 
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   html {
-    font-size: 30%;
+    font-size: 55%;
   }
-} */
+
+  .container {
+    width: 656px;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  html {
+    font-size: 55%;
+  }
+
+  .container {
+    width: 327px;
+  }
+}
 
 body: {
 
