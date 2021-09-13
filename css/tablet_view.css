@@ -1,0 +1,232 @@
+/* タブレットビュー */
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 656px;
+    padding-top: 10.7rem;
+    padding-bottom: 10.7rem;
+  }
+
+  .br-tablet {
+    display: block;
+  }
+
+  .br-pc {
+    display: none;
+  }
+
+  /***********************/
+  /* 開催概要 */
+  /***********************/
+
+  .section-description .container {
+    padding-top: 14rem;
+    /* padding-bottom: 10.7rem; */
+  }
+
+  .char-style-heading {
+    font-size: 3.6rem;
+  }
+
+  .text-box-center {
+    width: 100%;
+    margin-bottom: 5.6rem;
+  }
+
+  .description-img-container {
+    margin-bottom: 5.6rem;
+  }
+
+  /* 開催日時 *******************/
+
+  .event-date-container {
+    width: 67%;
+    margin-bottom: 8rem;
+  }
+
+  .char-style-noto h4 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  }
+
+  .event p:first-of-type {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1.6rem;
+  }
+
+  .event :first-child span {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+
+  .event :nth-child(2) {
+    font-family: 'Hiragino Sans';
+    font-size: 1.6rem;
+    font-weight: 300;
+  }
+
+  /* フェスの内容紹介（写真付き)************************/
+
+  .fes-contents {
+    margin-bottom: 7.6rem;
+  }
+
+  .fes-contents .title-container {
+    margin-bottom: 4.8rem;
+  }
+
+  .fes-contents h4 {
+    line-height: 4.8rem;
+  }
+
+  .grid-des {
+    display: grid;
+    row-gap: 5.8rem;
+    grid-template-columns: repeat(1, 1fr)
+  }
+
+  .fes-img-container {
+    width: 73%;
+    margin: 0 auto;
+    margin-bottom: 2.4rem;
+  }
+
+  .figure-title-container {
+    margin-bottom: 2rem;
+  }
+
+  .figure-footer-title {
+    font-size: 2.4rem;
+  }
+
+  .text-box-footer {
+    margin-bottom: 2.4rem;
+  }
+
+  .button {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  /* 同時開催イベント *************************/
+
+  .more-event-container h4 {
+    font-size: 2.4rem;
+  }
+
+  /***********************/
+  /* ステージショー */
+  /***********************/
+  
+  .schedule-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 5.6rem;
+  }
+
+  .stage-img-container {
+    width: 73%;
+    margin-bottom: 3.6rem;
+  }
+
+  .table-container {
+    width: 100%;
+  }
+
+  form div:nth-of-type(4) input {
+    width: 38%;
+  }
+
+  form div:last-of-type input {
+    width: 38%;
+  }
+
+  .button.sml {
+    width: 100%;
+  }
+
+  /***********************/
+  /* ガイドツアー */
+  /***********************/
+
+
+
+  /***********************/
+  /* スタンプラリー */
+  /***********************/
+
+  .rally-text-box {
+    text-align: start;
+
+    /* margin-bottom: 3.4rem; */
+  }
+
+  .rally-text-info {
+    margin-bottom: 4.1rem;
+  }
+
+  .rally-img-container {
+    transform: translateX(-2.5rem)
+  }
+
+  .section-rally h4 {
+    margin-bottom: 3.1rem
+  }
+
+
+  /***********************/
+  /* FOOTER */
+  /***********************/
+
+  footer .inner-container {
+
+  }
+
+  .grid-footer.first {
+    display: grid;
+    row-gap: 3rem;
+    grid-template-columns: repeat(1, 1fr)
+  }
+
+  footer .grid-footer.first a {
+    text-align: center;
+  }
+
+  .button.enquiry {
+    width: 37%;
+  }
+
+  .grid-footer.second {
+    display: grid;
+    row-gap: 3rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .grid-footer.second .social-medias{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .grid-footer.second .stakeholder {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .event-links-title p {
+    text-align: center;
+  }
+
+  .grid-footer.second .event-links {
+    /* margin-left: auto;
+    margin-right: auto; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+}

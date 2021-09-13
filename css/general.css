@@ -23,9 +23,8 @@
 
 html {
   /* percentage of browser font-size setting */
-  font-size: 53.125%;
-  font-size: 51.1%;
   font-size: 55%;
+  /* font-size: 58%; */
 }
 
 /* @media screen and (max-width: 1440px) {
@@ -39,15 +38,7 @@ html {
   }
 } */
 
-@media screen and (max-width: 1024px) {
-  html {
-    font-size: 55%;
-  }
 
-  .container {
-    width: 656px;
-  }
-}
 
 @media screen and (max-width: 667px) {
   html {
@@ -57,6 +48,10 @@ html {
   .container {
     width: 327px;
   }
+}
+
+.br-tablet {
+  display: none;
 }
 
 body: {
@@ -73,16 +68,12 @@ a:hover, a:active {
   transition: .3s;
 }
 
+a.button:hover, a.button:hover {
+  opacity: 1
+}
+
 .margin-right-sm {
   margin-right: 1.8rem !important;
-}
-
-.margin-bottom-sm {
-  
-}
-
-.margin-bottom-md {
-  
 }
 
 .margin-bottom-lg {
@@ -100,11 +91,15 @@ a:hover, a:active {
 }
 
 .char-style-heading {
-  font-family: "sofia-pro-soft","dnp-shuei-mgothic-std";
+  font-family: var(--font-family-dnp-shueimgostd);
   font-weight: bold;
   font-size: 4.8rem;
   color: #fff;
   text-align: center;
+}
+
+.black {
+  color: #333;
 }
 
 .char-style-noto {
@@ -120,15 +115,10 @@ a:hover, a:active {
   margin-bottom: 2.6rem;
 }
 
-/* .char-style-header {
-  font-size: 2.3rem;
-  font-family: var(--font-family-dnp-shueimgostd);
-  color: #fff;
-} */
-
 /* button */
 .button {
   display: block;
+  width: 100%;
   padding-top: 2rem;
   padding-bottom: 2rem;
   border: 1px solid #282828;
@@ -136,15 +126,15 @@ a:hover, a:active {
   border-radius: 3.8rem;
 
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: bold;
   font-family: "NotoSansCJKjp";
   color: #282828;
 }
 
-.button:link, .button:visited {
+/* .button:link, .button:visited {
   width: 100%;
-}
+} */
 
 .button.sml {
   width: 51.5%;
@@ -240,8 +230,6 @@ a:hover, a:active {
 .green {
   background-color: #64A28D;
 }
-
-
 
 /* right arrow */
 
@@ -358,26 +346,23 @@ a:hover, a:active {
   background-color: #fff;
 }
 
-.grid-2 {
+.grid-des {
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
   row-gap: 8rem;
   column-gap: 8.4rem;
 }
 
-.grid-2cols {
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.grid-3 {
+.grid-footer {
   display: grid;
 }
 
-.grid-3cols {
+.first {
   grid-template-columns: 19% 1fr 21.8%;
   column-gap: 5%;
 }
 
-.grid-3cols.second {
+.second {
   grid-template-columns: 15% 1fr 26%;
   column-gap: 5%;  
 }

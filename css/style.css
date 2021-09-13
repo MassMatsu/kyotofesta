@@ -126,7 +126,9 @@ nav {
 
 .banners-container {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: center;
+
 }
 
 .banners-container div {
@@ -195,13 +197,6 @@ nav {
 .section-description .container {
   padding-top: 18rem;
   padding-bottom: 14rem;
-}
-
-.section-description h2 {
-  font-size: 4.8rem;
-  font-family: var(--font-family-dnp-shueimgostd);
-  font-weight: bold;
-  text-align: center;
 }
 
 .text-box-center {
@@ -319,7 +314,7 @@ nav {
 }
 
 .fes-contents .title-container div {
-   width: 5rem; 
+  width: 5rem; 
 }
 
 .fes-contents .title-container img {
@@ -400,6 +395,14 @@ nav {
 
 .text-box-footer {
   margin-bottom: 3.2rem;
+}
+
+.text-box-footer a {
+  color: #5D8C70;
+  font-weight: bold;
+  padding-bottom: 3px;
+  
+  border-bottom: 1px solid #5D8C70;
 }
 
 .event-date {
@@ -509,7 +512,6 @@ nav {
   background-size: cover;
 
   position: relative;
-
 }
 
 .inner-container.yellow {
@@ -544,6 +546,7 @@ nav {
 
   font-family: "Hiragino Kaku Gothic Pro";
   font-size: 1.8rem;
+  font-weight: 300;
   line-height: 3.5rem;
 
   padding: .5rem 3rem 1rem 3rem;
@@ -652,6 +655,22 @@ form div:last-of-type span {
   margin-left: 1rem;
 }
 
+/* input[type="number"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+input[type="number"]::before {
+  position: absolute;
+  top: 8px;
+  right: 20px;
+  color: #ECEFF1;
+  font-size: 20px;
+  content: "▲";
+  pointer-events: none;
+} */
+
+
+
 .stageshow-flower-left {
   position: absolute;
   bottom: 0;
@@ -676,12 +695,14 @@ form div:last-of-type span {
   background-color: #fbfce6;
 }
 
-.black {
-  color: #333;
+.section-tour .container {
+  padding-bottom: 0;
 }
 
 .guide-text-box {
   width: 90%;
+
+  margin-bottom: 4rem;
 }
 
 .guide-text-box p {
@@ -693,6 +714,16 @@ form div:last-of-type span {
   font-family: "NotoSansCJKjp";
   font-weight: bold;
   margin-bottom: 1.9rem;
+}
+
+.inner-guide {
+  display: flex;
+}
+
+.inner-guide .headings {
+  font-weight: 600;
+
+  width: 15rem
 }
 
 .guide-img-container {
@@ -722,7 +753,7 @@ form div:last-of-type span {
 /* スタンプラリー */
 /***********************/
 
-.section-rally {
+/* .section-rally {
   padding-bottom: 15rem;
 }
 
@@ -824,19 +855,20 @@ form div:last-of-type span {
   align-items: center;
 
   margin-top: 3rem;
-}
+} */
 
 /***********************/
 /* FOOTER */
 /***********************/
-
 footer {
-  background-image: url(../img/top_bg.jpg);
+  background-color: #fbfce6;
   background-size: cover;
 }
 
 footer .container {
-  position: relative;
+  padding-top: 12rem;
+  padding-bottom: 0;
+  /* position: relative; */
 }
 
 footer .inner-container {
@@ -845,9 +877,10 @@ footer .inner-container {
 
   width: 100%;
 
-  position: absolute;
+  padding-bottom: 3rem; 
+  /* position: absolute;
   top: -15rem;
-  left: 0  
+  left: 0   */
 }
 
 footer .site-title {
@@ -898,7 +931,6 @@ footer .links li{
 
   margin-right: 1rem;
 }
-
 
 .social-medias {
 display: flex;
